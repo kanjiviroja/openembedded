@@ -1,4 +1,5 @@
-This is only for the colibri VF50 work with Console Image only
+This is only for the colibri VF50 Machine[It is work for Console-trdx-image]
 - Removing all Graphics related support
 - meta-colibri layer is working for both BSP as well as High level Application
 - no need to add meta-fsl-arm or meta-fsl-arm-extra or meta-toradex layer in your bblayers.conf,just only meta-colibri layer is enough
+- Added support of new latest linux-kernel-4.4,If you want to use it then set the version for the virtual/kernel and branch
