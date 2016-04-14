@@ -1,0 +1,12 @@
+[Unit]
+Description=Nginx Server
+After=network.target
+[Service]
+Type=forking
+PIDFile=@SYSCONFDIR@/nginx/run/nginx.pid
+ExecStartPre=-/bin/mkdir -p @LOCALSTATEDIR@/log/nginx
+ExecStartPre=-/bin/mkdir -p @LOCALSTATEDIR@/run/nginx
+ExecStart=/usr/sbin/nginx
+[Install]
+WantedBy=multi-user.target
+
