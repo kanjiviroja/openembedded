@@ -1,2 +1,0 @@
-SRCREV = "b66337d357cca761bf8627acbb1ec991f425f0b4"
-SRCBRANCH = "2015.04-toradex"
